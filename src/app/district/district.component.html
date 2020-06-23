@@ -1,0 +1,239 @@
+
+<!-- ============================================================== -->
+	<!-- Start - corona Main Menu Area -->
+	<!-- ============================================================== -->
+	<div id="sticky-header" class="corona_main_menu d-md-none d-lg-block d-sm-none d-none">
+            <div class="corona_nav_manu">
+                <div class="container-fluid">
+                    <div class="row">
+                        
+                        <div class="col-md-8">
+                                <a [routerLink]="['/home']"><h2 style="color:lightgreen">COVID-19 <span style="color: orange">INDIA</span></h2></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End - corona Main Menu Area -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Start - Mobile Menu Area -->
+        <!-- ============================================================== -->
+        <div class=" corona_main_menu  hidden-md  hidden-lg">
+                <div class="menu_area mobile-menu mean-container">
+                    <div class="mean-bar">
+    
+                    </div>
+                        <div class="mean-push"></div>
+                </div>					
+            </div>			
+        <!-- ============================================================== -->
+        <!-- End - Mobile Menu Area -->
+        <!-- ============================================================== -->	
+          <!-- ============================================================== -->
+	<!-- Start - Corona Service Area -->
+	<!-- ============================================================== -->
+	<div class="service_area bg_img pb-80 pt-100" id="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section_title center mb-5">
+                            <div class="section_title_thumb rotateme">
+                                <img src="assets/images/lg.png" alt="" />
+                            </div>
+                            <div class="section_title_content pt-2">
+                                <h5>India</h5>
+                                <h2> <span style="background-color:rgb(131, 120, 4)">{{st}}</span> state of COVID-19 District wise Data</h2>
+                                <a [routerLink]="['/home']"><h5>Back to Home</h5></a>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            	<div class="row">
+                      
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xm-12">
+                            <div id="accordion">
+                              <div class="card mb-4" *ngFor="let s of dis">
+                                <div class="card-header" *ngFor="let d of s.districtData">
+                    
+                                       
+                               <div class="container"> 
+                                    <div class="row"> 
+                                        <div class="col mx-1">  <h5 class="mb-0">
+                                                <a class="btn btn-link">
+                                                        {{d.district}} 
+                                                </a>
+                                               
+                                              </h5></div> 
+                                        <div class="col mx-1"><h5 class="mb-0">
+                                                <a class="btn btn-link">
+                                                        
+                                                        <span style="color: orange">{{d.confirmed}}<br/>Confirmed</span> 
+                                                </a>
+                                               
+                                              </h5></div> 
+                                        <div class="col mx-1"><h5 class="mb-0">
+                                                <a class="btn btn-link">
+                                                        <span style="color: rgb(238, 17, 220)">{{d.active}}<br/>Active</span> 
+                                                </a>
+                                               
+                                              </h5></div> 
+                                        <div class="col mx-1"><h5 class="mb-0">
+                                                <a class="btn btn-link">
+                                                        <span style="color: rgb(10, 248, 10)">{{d.recovered}}<br/>Recovered</span> 
+                                                </a>
+                                               
+                                              </h5></div> 
+                                        <div class="col mx-1"><h5 class="mb-0">
+                                                <a class="btn btn-link">
+                                                        <span style="color: rgb(252, 8, 8)">{{d.deceased}}<br/>Deaths</span> 
+                                                </a>
+                                               
+                                              </h5></div> 
+                                    </div> 
+                                </div>
+                                 
+                               
+                                </div>
+        
+            
+                              </div>
+
+                         
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+         <!-- <div class="container">
+            <table>
+                    <thead>
+                      <tr>
+                        <th scope="col">Sno</th>
+                        <th scope="col">District</th>
+                        <th scope="col" style="color: red">Confirmed</th>
+                        <th scope="col" style="color: blue">Active</th>
+                        <th scope="col" style="color: green">Recovered</th>
+                        <th scope="col" style="color: grey">Deaths</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let d of sdata; let ndx = index">
+                        <td>{{ndx+1}}</td>
+                        <td>{{d.district}}</td>
+                        <td><span style="color: red">{{d.confirmed}}</span></td>
+                        <td><span style="color: blue">{{d.active}}</span></td>
+                        <td><span style="color: green">{{d.recovered}}</span></td>
+                        <td><span style="color: grey">{{d.deceased}}</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div> -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End - Corona Service Area -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+	<!-- Start - corona Footer Area -->
+	<!-- ============================================================== -->
+	<div class="footer_area bg_color pt-80 pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_footer">
+                            <div class="single_footer_title pb-2">
+                                    <a [routerLink]="['/home']"><h3 style="color:lightgreen">COVID-19 <span style="color: orange">INDIA</span></h3></a>
+                            </div>
+                            <div class="single_footer_text">
+                                <p>The most common symptoms of COVID-19 are fever, tiredness, and dry cough. </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_footer">
+                            <div class="single_footer_title pb-4">
+                                <h4>Important Links</h4>
+                            </div>
+                            <div class="single_footer_body">
+                                <ul>
+                                    <li><a [routerLink]="['/states']">All States</a></li>
+                                    <li><a [routerLink]="['/home']">Home</a></li>							
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_footer">
+                            <div class="single_footer_title pb-4">
+                                <h4>Recent Update</h4>
+                            </div>
+                            <div class="single_footer_recent">
+                                <div class="single_footer_recent_thumb">
+                                    <img src="assets/images/recent1.jpg" alt="" />
+                                </div>
+                                <div class="single_footer_recent_content">
+                                    <a href="#">Caring for someone at home</a>
+                                    
+                                </div>
+                            </div>
+                            <div class="single_footer_recent mt-3">
+                                <div class="single_footer_recent_thumb">
+                                    <img src="assets/images/recent2.jpg" alt="" />
+                                </div>
+                                <div class="single_footer_recent_content">
+                                    <a href="#">What to Do if You are feeling</a>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_footer">
+                            <div class="single_footer_title pb-4">
+                                <h4>Social Media</h4>
+                            </div>
+                            <div class="footer_icon pt-2">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
+                            <div class="single_footer_address">
+                                <ul>
+                                    <li><span>Address:</span> India.</li>
+                                    <li><span>Telephone:</span> +323 254 123</li>
+                                    <li><span>Email:</span> example@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Shape Image -->
+            <div class="footer_shape">
+                <div class="clouds">
+                    <img src="assets/images/boy1.png" alt="01" class="cloud1"/>
+                </div>
+            </div>
+            <div class="footer_shape">
+                <div class="clouds">
+                    <img src="assets/images/boy3.png" alt="02" class="cloud2"/>
+                </div>
+            </div>
+            
+            <div class="footer_shape">
+                <div class="clouds">
+                    <img src="assets/images/boy2.png" alt="03" class="cloud3"/>
+                </div>
+            </div>
+            <div class="footer_shape">
+                <div class="clouds">
+                    <img src="assets/images/boy4.png" alt="04" class="cloud4"/>
+                </div>
+            </div>
+        </div>
+        
