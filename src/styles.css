@@ -1,1 +1,1893 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+Template Name: Corona Virus Medical Prevention HTML5 Template
+
+
+/*
+<!-- ============================================================== -->
+<!-- Css - Table Of Index -->
+<!-- ============================================================== -->
+1. Corona - Main Menu Area Css
+2. Corona - Slider Area Css
+3. Corona - Section Title Css
+4. Corona - Feature Area Css
+5. Corona - Service Area Css 
+6. Corona - Breatcome Area Css
+7. Corona - About Area Css
+8. Corona - Video Area Css
+9. Corona - Team Area Css
+9. Corona - Team Details Area Css
+10. Corona - Process Area Css
+11. Corona - Prevention Area Css
+12. Corona - Accoding Area Css
+13. Corona - Contact Now Area Css
+15. Corona - Contact Area Css
+16. Corona - Blog Area Css
+17. Corona - Footer Area Css
+18. Corona Blog Details Area Css
+19. Corona Bounce Animate Css
+
+<!-- ============================================================== -->
+<!-- End - Table Of Index -->
+<!-- ============================================================== --> */
+
+
+/*<!-- ============================================================== -->
+	<!-- Corona - Main Menu Area Css -->
+	<!-- ============================================================== -->*/
+    .corona_main_menu {
+        background: transparent;
+        padding: 25px 50px;
+        transition: .5s;
+        margin-bottom: -174px;
+        z-index: 999;
+        position: relative;
+    }
+    .sticky {
+        left: 0;
+        margin: auto;
+        position: fixed;
+        padding: 16px 50px;
+        top: 0;
+        width: 100%;
+        box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+        z-index: 9999;
+        -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+        animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+        -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+        background: #003569;
+    }
+    .menu-height-space{
+        height:100px;
+    }
+    .mean-container {
+        overflow: hidden;
+    }
+    /* logo Css*/
+    .logo {
+     
+    }
+    .corona_main_menu .logo_tranalte {
+        display: none;
+    }
+    .corona_main_menu.sticky .logo_tranalte {
+        display: block;
+    }
+    .corona_main_menu.sticky .logo_img {
+        display: none;
+    }
+    .logo_responsive {
+        display: none;
+    }
+    /* corona Menu Css*/
+    .sticky .corona_menu.color_black li a {
+        color: #fff;
+    }
+    .corona_menu {
+        text-align: right;
+        margin-top: 28px;
+    }
+    .corona_menu ul {
+        list-style: none;
+        position: relative;
+        display: inline-block;
+    }
+    .corona_menu li {
+        display: inline-block;
+    }
+    .corona_menu li a {
+        margin: 0 17px;
+        font-size: 18px;
+        font-weight: 400;
+        display: block;
+        color: #fff;
+        position: relative;
+    }
+    .corona_menu.color_black li a {
+        color: #232323;
+    }
+    .corona_menu li:last-child a{
+        margin-right:0;
+    } 
+    
+    
+    .corona_menu>ul>li {
+     display: inline-block;
+     position: relative;
+    }
+    .corona_menu > ul > li > a {
+        display: block;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+        position: relative;
+        color: #fff;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .corona_menu ul li:last-child a {
+     margin-right: 0px;
+    }
+    /* Corona Sub Menu */
+    .corona_menu{
+        position:relative;
+    }
+    .corona_menu ul .sub-menu {
+        position: absolute;
+        left: 0;
+        top: 180%;
+        width: 180px;
+        text-align: left;
+        background: #fff;
+        margin: 0;
+        padding: 15px 0;
+        z-index: 9999;
+        -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        visibility: hidden;
+        border-top: 2px solid #5fe60e;
+        border-radius: 5px;
+    }
+    .corona_menu ul li:hover>.sub-menu {
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     visibility: visible;
+     top: 150%;
+     z-index: 9;
+    }
+    .corona_menu ul .sub-menu li {
+        position: relative;
+        display: block;
+    }
+    .corona_menu ul .sub-menu li a {
+        display: block;
+        padding: 12px 20px;
+        margin: 0;
+        line-height: 1.3;
+        letter-spacing: normal;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: capitalize;
+        -webkit-transition: .1s;
+        -o-transition: .1s;
+        transition: .1s;
+        visibility: inherit !important;
+        color: #333;
+    }
+    .corona_menu ul .sub-menu li:hover>a,
+    .corona_menu ul .sub-menu .sub-menu li:hover>a,
+    .corona_menu ul .sub-menu .sub-menu .sub-menu li:hover>a,
+    .corona_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover>a {
+     background: rgba(255, 255, 255, .06);
+     color: #5fe60e;
+    }
+    
+    /* sub menu 2 */
+    .corona_menu ul .sub-menu .sub-menu {
+     left: 100%;
+     top: 130%;
+     opacity: 0;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     visibility: hidden;
+    }
+    .corona_menu ul .sub-menu li:hover>.sub-menu {
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     visibility: visible;
+     top: 0%;
+    }
+    
+    /* sub menu 3 */
+    .corona_menu ul .sub-menu .sub-menu li {
+     position: relative;
+    }
+    .corona_menu ul .sub-menu .sub-menu .sub-menu {
+     right: 100%;
+     left: auto;
+     top: 130%;
+     opacity: 0;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     visibility: hidden;
+    }
+    .corona_menu ul .sub-menu .sub-menu li:hover>.sub-menu {
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     visibility: visible;
+     top: 0%;
+    }
+    
+    /* sub menu 4 */
+    .corona_menu ul .sub-menu .sub-menu .sub-menu li {
+     position: relative;
+    }
+    .corona_menu ul .sub-menu .sub-menu .sub-menu .sub-menu {
+    }
+    .corona_menu ul .sub-menu .sub-menu .sub-menu li:hover>.sub-menu {
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     visibility: visible;
+     top: 0%;
+    }
+    
+    /* Corona Button */
+    .corona_button{
+        display: inline-block;
+    }
+    .corona_button a{
+        padding: 13px 29px;
+        border: 1px solid #fff;
+        border-radius: 30px;
+        color: #fff;
+    }
+    /*<!-- ============================================================== -->
+        <!-- Corona - Slider Area Css -->
+        <!-- ============================================================== -->*/
+        
+    .slider_area {
+        background-image: url("/assets/images/slider-1.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        min-height: 900px;
+        position: relative;
+    }
+    .slider_text_inner {
+        text-align: center;
+    }
+    .slider_text_inner h1 {
+        margin: 0;
+        font-size: 50px;
+        color: #fff;
+    }
+    .slider_text_inner span {
+        color: #5fe60e;
+    }
+    .slider_text_inner h2 {
+        color: #fff;
+        font-size: 40px;
+    }
+    .slider_text_inner ul {
+        margin-top: 15px;
+    }
+    .slider_text_inner ul li {
+        display: inline;
+        font-size: 19px;
+        color: #fff;
+        margin: 0 7px;
+    }
+    .Slider_button {
+        text-align: center;
+    }
+    .Slider_button .button a {
+        background: #5fe60e;
+        color: #fff;
+        padding: 15px 35px;
+        font-weight: 500;
+        display: inline-block;
+        transition: .5s;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        border-radius: 5px;
+        display: inline-block;
+    }
+    .slider_thumb {
+        position: relative;
+    }
+    .slider_thumb_inner {
+        position: absolute;
+        left: 42%;
+        bottom: -190px;
+    }
+    
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Section Title Css -->
+    <!-- ============================================================== -->*/
+    /* Section Title Left */
+    .section_title.left{
+        text-align:left;
+    }
+    .section_title.left .section_title_thumb {
+        position: absolute;
+    }
+    /* Section Title Center */
+    .section_title.center {
+        text-align: center;
+    }
+    .section_title_content h2 {
+        color: #fff;
+        margin: 0;
+    }
+    .section_title_content p{
+        color: rgba(255,255,255.80);
+        padding-top: 20px;
+    }	
+    .section_title.center .section_title_content p {
+        width: 75%;
+        margin: auto;
+    }
+    .section_title h5 {
+        text-transform: uppercase;
+        color: #5fe60e;
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .color_black .section_title_content h2 {
+        color: #232323;
+    }
+    .color_black .section_title_content p{
+        color:#616161;
+    }	
+    .section_title h5 {
+        text-transform: uppercase;
+        color: #5fe60e;
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+        
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Feature Area Css -->
+    <!-- ============================================================== -->*/
+    .bg_color{
+        background:#0B2C55;
+    }
+    .bg_color2{
+        background:#f7f8f9;
+    }
+    .bg_color3{
+        background:#fff;
+    }
+    
+    .single_feature {
+        text-align: center;
+        background: #003569;
+        padding: 40px 26px 18px;
+        box-shadow: 0 2px 25px rgba(0,0,0,0.10);
+        border-radius: 5px;
+    }
+    .single_feature_icon img {
+        border-radius: 100%;
+        width: 100px;
+        transition:.8s;
+    }
+    .single_feature_title h4 {
+        font-size: 22px;
+        color: #fff;
+    }
+    .single_feature_text p {
+        color: rgba(255,255,255.80);
+    }
+    .single_feature:hover .single_feature_icon img {
+        transform:rotate(360deg);
+    }
+    .uper_top{
+        position:relative;
+        margin-top:-100px;
+    }
+    
+    /* Style Two */
+    .style2 .single_feature {
+        background: #fff;
+        border-bottom: 2px solid #5fe60e;
+    }	
+    .style2 .single_feature_text p {
+        color: #616161;
+    }
+    .style2 .single_feature_title h4 {
+        font-size: 22px;
+        color: #232323;
+    }
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Service Area Css -->
+    <!-- ============================================================== -->*/
+    .bg_img {
+        background-image: url("/assets/images/slider-1.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .single_service {
+        text-align: center;
+        background: #0B2C55;
+        padding: 40px 26px 32px;
+        box-shadow: 0 2px 25px rgba(0,0,0,0.10);
+        border-radius: 5px;
+        transform:translateY(0);
+        transition:.5s;
+    }
+    .single_service:hover{
+        transform:translateY(-10px);
+    }
+    .single_service_icon img {
+        border-radius: 100%;
+    }
+    .single_service_title h4 {
+        font-size: 22px;
+        color: #fff;
+        position:relative;
+    }
+    .single_service_title h4:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 40px;
+        height: 2px;
+        width: 80px;
+        background: #5fe60e;
+        right: 0;
+        margin: auto;
+    }
+    .single_service_text p {
+        color: rgba(255,255,255.80);
+    }
+    .single_service_button a {
+        color: #5fe60e;
+        font-weight: 500;
+    }
+    /* Style Two */
+    .style2 .single_service {
+        background: #fff;
+    }
+    .style2 .single_service_title h4 {
+        color: #232323;
+    }
+    .style2 .single_service_text p {
+        color:#616161;
+    }
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Breatcome Area Css -->
+    <!-- ============================================================== -->*/
+    .breatcome_area{
+        background-image:url("/assets/images/login-banner.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        height:500px;
+        position:relative;
+    }
+    .breatcome_area:before{
+        position: absolute;
+        content: '';
+        background-image: linear-gradient(to right, rgba(123,199,77, 0.95), rgba(123,199,77, 0.92), rgba(123,199,77, 0.88), rgba(123,199,77, 0.85), rgba(123,199,77, 0.80));
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .breatcome_title {
+        text-align: center;
+    }
+    .breatcome_title_inner h2 {
+        color: #fff;
+        font-size:60px;
+    }
+    .breatcome_content ul li {
+        display: inline-block;
+    }
+    .breatcome_content ul li a {
+        color: #fff;
+        opacity: .7;
+        transition:.5s;
+    }
+    .breatcome_content ul li i {
+        color: #fff;
+        opacity: .7;
+        padding: 0 5px;
+    }
+    .breatcome_content ul li span {
+        color: #fff;
+        opacity: .7;
+    }
+    .breatcome_content ul li a:hover {
+        opacity:1;
+    }
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - About Area Css -->
+    <!-- ============================================================== -->*/
+    .single_about_thumb img {
+        width: 100%;
+    }
+    .single_about_icon {
+        float:left;
+    }
+    .single_about_icon i {
+        color: #5fe60e;
+        font-size: 25px;
+    }
+    .single_about_text {
+        color: rgba(255,255,255.80);
+    }
+    .button a{
+        background: #5fe60e;
+        color: #fff;
+        padding: 15px 35px;
+        font-weight: 500;
+        display: inline-block;
+        transition: .5s;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        border-radius: 50px;
+        display: inline-block;
+    }
+    .button a:hover{
+        background: #fff;
+        color:#5fe60e;
+    }
+    .style2 .button a{
+     border: 2px solid #5fe60e;
+     padding:13px 35px;
+    }
+    .style2 .button a:hover {
+        background:transparent;
+        border: 2px solid #5fe60e;
+        
+    }
+    .style2 .single_about_text {
+        color: #616161;
+    }
+    
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Video Area Css -->
+    <!-- ============================================================== -->*/
+    .single_video_content h1 {
+        color: #fff;
+        margin:0;
+    }
+    .single_video_content p {
+        color: rgba(255,255,255,0.80);
+        width: 45%;
+        margin: auto;
+        padding-top: 15px;
+    }
+    .single_video .button a {
+        border-radius: 5px;
+    }
+    .single_video {
+        text-align: center;
+    }
+    .video_icon a{
+        position:relative;
+    }
+    .video_icon a i {
+        color: #fff;
+        font-size: 30px;
+        border-radius: 50%;
+        background:#5fe60e;
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        transition: .5s;
+        text-align:center;
+        position:relative;
+    }
+    .video_icon a i:hover{
+        background:#fff;
+        color:#5fe60e;
+    }
+    .video_icon a::before {
+        content: "";
+        position: absolute;
+        left: 34px;
+        top: 40%;
+        height: 90px;
+        width: 90px;
+        background: rgba(255,255,255,0.8);
+        border-radius: 50%;
+        transform: translate(-50%,-50%);
+        animation: pulse-border 1500ms ease-out infinite;
+    }
+    @keyframes pulse-border {
+      0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+        }
+      100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+        }
+    }
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Team Area Css -->
+    <!-- ============================================================== -->*/
+    .single_team_icon {
+        position: relative;
+    }
+    .single_team_icon_inner {
+        position: absolute;
+        right: -35px;
+        background: #fff;
+        padding: 16px 13px;
+        bottom: 60px;
+        transition: .5s;
+        opacity: 0;
+    }
+    .single_team_thumb img {
+        width: 100%;
+    }
+    .single_team_icon_inner a {
+        display: block;
+        color: #5fe60e;
+        transition: .5s;
+    }
+    .single_team_content {
+        background: #0B2C55;
+        text-align: center;
+        padding: 12px 10px 22px;
+        border-bottom: 5px solid #5fe60e;
+    }
+    .single_team_content h4{
+        color:#fff;
+    }
+    .single_team_content span{
+        color:#5fe60e;
+        margin-top:5px;
+    }
+    .single_team:hover .single_team_icon_inner{
+        right: 0;
+        opacity:1;
+    }
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Team Details Area Css -->
+    <!-- ============================================================== -->*/
+    .team-details {
+        box-shadow: 6px 5px 30px rgba(0,0,0,0.12);
+        padding: 50px;
+    }
+    .team-details-content-text ul li {
+        margin-bottom: 17px;
+        display: block;
+    }
+    .team-details-content-text ul li span {
+        font-weight: 800;
+        margin-right: 15px;
+        font-size:17px;
+    }
+    .team-details-content-icon a {
+        margin: 3px;
+        background: #5fe60e;
+        line-height: 1;
+        display: inline-block;
+        border-radius: 3px;
+        color:#fff;
+        height:35px;
+        width:35px;
+        line-height:35px;
+        text-align:center;
+        transition:.5s;
+    }
+    .team-details-content-icon a:hover {
+        background: #00247e;
+    }
+    .skill-wrapper h6 {
+        margin-bottom: 8px;
+    }
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Process Area Css -->
+    <!-- ============================================================== -->*/
+    .single_process {
+        position: relative;
+        padding: 0 50px;
+    }
+    .single_process_thumb {
+        border: 5px solid #5fe60e;
+        display: inline-block;
+        border-radius: 50%;
+    }
+    .single_process_thumb img {
+        border-radius: 50%;
+        border: 10px solid #fff;
+        width:100%;
+    }
+    .single_process_number {
+        position: absolute;
+        left: 25px;
+        top: 40%;
+        margin: auto;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .single_process_number span {
+        background: #5fe60e;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 50px;
+        color: #fff;
+        border-radius: 50%;
+        font-size: 17px;
+        position: relative;
+        z-index: 1;
+    }
+    .single_process_number span:before {
+        position: absolute;
+        left: -5px;
+        top: -5px;
+        width: 60px;
+        height: 60px;
+        background: #5fe60e;
+        opacity: 0.5;
+        content: "";
+        margin: auto;
+        border-radius: 100%;
+        z-index: -1;
+    }
+    .single_process_number span:after {
+        position: absolute;
+        left: -15px;
+        top: -15px;
+        width: 80px;
+        height: 80px;
+        background: #5fe60e;
+        opacity: 0.3;
+        content: "";
+        margin: auto;
+        border-radius: 100%;
+        z-index: -1;
+    }
+    .single_process_content h5 {
+        color: #fff;
+        text-align: center;
+        font-size: 19px;
+    }
+    .single_process:hover .single_process_number{
+        top: 35%;
+    }
+    .style2 .single_process_content h5 {
+        color: #232323;
+    }
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Prevention Area Css -->
+    <!-- ============================================================== -->*/
+    
+    .single_prevention {
+        background: #0B2C55;
+        padding: 20px 10px 15px 0;
+        border-radius: 5px;
+        z-index:1;
+        transition:.5s;
+        position:relative;
+    }
+    .single_prevention::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 10%;
+        background: #5fe60e;
+        z-index: -1;
+        border-radius: 5px;
+        transition:.5s;
+        opacity:0;
+    }
+    .single_prevention:hover::before{
+        opacity:1;
+        width: 100%;
+    }
+    .single_prevention_thumb {
+        height: 100px;
+        width: 100px;
+        float: left;
+        position: relative;
+        margin-left: -40px;
+    }
+    .single_prevention_thumb img {
+        float: left;
+        width: 100%;
+        border-radius: 100%;
+    }
+    .single_prevention_content h4 {
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    .single_prevention_content p {
+        color: rgba(255,255,255.80);
+    }
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Accoding Area Css -->
+    <!-- ============================================================== -->*/
+    .card-header {
+        background-color: #003569 !important;
+        border-bottom: 1px solid #fff !important;
+    }
+    .card-body {
+        background: #003569;
+        color: #fff;
+    }
+    .btn-link {
+        font-weight: 600 !important;
+        color: #fff !important;
+        font-size: 20px !important;
+    }
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Contact Now Area Css -->
+    <!-- ============================================================== -->*/
+    .single_contact_now {
+        text-align: center;
+        background: #fff;
+        padding: 30px 30px 30px;
+        margin-bottom: 30px;
+        border-radius:5px;
+    }
+    .single_contact_now_inner {
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        transition:.5s;
+    }
+    .single_contact_now:hover .single_contact_now_inner {
+        border: 2px solid #5fe60e;
+    }
+    
+    .single_contact_now_icon {
+        padding-top: 24px;
+    }
+    .single_contact_now_icon i {
+        font-size: 40px;
+        color: #5fe60e;
+    }
+    .single_contact_now_content {
+        padding-bottom: 15px;
+    }
+    .single_contact_now_content h2 {
+        font-size: 22px;
+        padding-bottom: 12px;
+    }
+    .single_contact_now_content p {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 6px;
+    }
+    .contact_now_area .section_title_inner h2 {
+        color: #fff;
+    }
+    .contact_now_area .section_title_text p {
+        color: #fff;
+    }
+    
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Contact Area Css -->
+    <!-- ============================================================== -->*/
+    
+    .contact-form-main input {
+        width: 100%;
+        margin-bottom: 18px;
+        height: 45px;
+        padding-left: 15px;
+        border:1px solid #5fe60e;
+        border-radius:5px;
+    }
+    .contact-form-main textarea {
+        width: 100%;
+        padding-left: 15px;
+        padding-top: 20px;
+        height: 218px;
+        border:1px solid #5fe60e;
+        border-radius:5px;
+    }
+    .contact-form-main button {
+        background: #5fe60e;
+        border: 2px solid #5fe60e;
+        border-radius: 30px;
+        color: #fff;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        -webkit-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+        width: inherit;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .home3 .contact-form-main input {
+        background: transparent;
+        color:#fff;
+    }
+    .home3 .contact-form-main textarea {
+        background: transparent;
+        color:#fff;
+    }
+    .contact-form-main input:focus,
+    .contact-form-main textarea:focus {
+        border: 1px solid #5fe60e;
+    }
+    .form-group .form-control {
+        display: block;
+        width: 100%;
+        height: 50px;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .home3 .form-group .form-control {
+        background-color: transparent;
+        color:#fff;
+    }
+    .home3 .form-group textarea {
+        background-color: transparent;
+        color:#fff;
+    }
+    .form-group textarea {
+        overflow: auto;
+        resize: vertical;
+        width: 100%;
+        height: 210px;
+        padding-top: 20px;
+        padding-left: 12px;
+        border-radius: .25rem;
+    }
+    .contact_form .form-group  input:focus,
+    .contact_form .form-group  textarea:focus {
+        border: 1px solid #5fe60e;
+        background: transparent;
+    }
+    .contact_button button {
+        background: #5fe60e;
+        border: 2px solid #5fe60e;
+        border-radius: 30px;
+        color: #fff;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        -webkit-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+        width: inherit;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .contact_button button:hover {
+        background: transparent;
+        border-color: #5fe60e;
+        color: #5fe60e;
+    }
+    .map {
+        width: 100%;
+        margin: 0;
+        height: 410px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Blog Area Css -->
+    <!-- ============================================================== -->*/
+    
+    .single_blog {
+        box-shadow: 0 5px 25px rgba(0,0,0,0.10);
+        border-radius: 10px;
+        background: #fff;
+        text-align:center;
+    }
+    .single_blog_thumb img {
+        width: 100%;
+    }
+    .single_blog_meta {
+        box-shadow: 0 5px 25px rgba(0,0,0,0.10);
+        padding: 8px;
+        position: relative;
+        margin-top: -20px;
+        background: #fff;
+        border-radius: 5px;
+    }
+    .single_blog_meta_date span {
+        color: #5fe60e;
+        font-weight: 600;
+    }
+    .single_blog_title h4 {
+    }
+    .single_blog_title a {
+        color: #232323;
+        font-weight: 600;
+        transition:.5s;
+    }
+    .single_blog_title a:hover{
+        color: #5fe60e;
+    }
+    /*
+    <!-- ============================================================== -->
+    <!-- Corona - Footer Area Css -->
+    <!-- ============================================================== -->*/
+    .single_footer_title h4 {
+        color: #fff;
+    }
+    .single_footer_title img {
+        width: 57%;
+    }
+    .single_footer_body ul {
+        list-style: none;
+    }
+    .single_footer_body ul li {
+        display: block;
+        padding-bottom: 15px;
+        transition:.5s;
+    }
+    .single_footer_body ul li a {
+        color:rgba(255,255,255.80);
+        transition:.5s;
+    }
+    .single_footer_text p {
+        color: rgba(255,255,255.80);
+    }
+    .footer_icon a {
+        display: inline-block;
+        background: #fff;
+        height: 35px;
+        width: 35px;
+        text-align: center;
+        line-height: 35px;
+        font-size: 16px;
+        color: #5fe60e;
+        border-radius: 5px;
+        margin: 0 4px;
+        transition:.5s;
+    }
+    .single_footer_recent_thumb {
+        float: left;
+        margin-right: 2px;
+    }
+    .single_footer_recent_thumb img {
+        width: 82%;
+        border-radius:5px;
+    }
+    .single_footer_recent_content a {
+        color: rgba(255,255,255.80);
+        transition:.5s;
+    }
+    .single_footer_recent_content span {
+        display: block;
+        color: rgba(255,255,255.80);
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .single_footer_address ul li {
+        display: block;
+        color: rgba(255,255,255.80);
+    }
+    .single_footer_address ul li span {
+        font-weight: 600;
+    }
+    .single_footer_address ul li {
+        display: block;
+        color: rgba(255,255,255.80);
+        margin: 12px 0;
+    }
+    .single_footer_recent_content a:hover{
+        color:#5fe60e;
+    }
+    .footer_icon a:hover{
+        background:#5fe60e;
+        color:#fff;
+    }
+    .single_footer_body ul li:hover{
+        margin-left:10px;
+    }
+    .single_footer_body ul li a:hover {
+        color:#5fe60e;
+    }
+    .team-details-thumb img {
+        width: 100%;
+    }
+    /*============================
+    Corona Blog Details Area Css
+    ==============================*/
+    .blog-details-area {
+        background: #fff;
+        padding: 110px 0 110px;
+    }
+    /* Blog Left Sidebar CSS */
+    .blog_area.left-sidebar {
+        background: #fff;
+        padding: 108px 0 80px;
+    }
+    .left-sidebar .corona-single-blog {
+        box-shadow: 0 7px 16px rgba(0, 0, 0, 0.15);
+        margin-bottom:30px;
+    }
+    .left-sidebar .corona-blog-thumb {
+        overflow: hidden;
+    }
+    .left-sidebar .em-blog-content-area {
+        padding: 0 30px 20px;
+    }
+    .left-sidebar .blog-page-title {
+        padding-top: 4px;
+    }
+    .left-sidebar .blog-page-title h2 {
+        font-size: 30px;
+    }
+    .blog-page-datetime {
+        background: linear-gradient(to right, #03b8fa, #135ef3);
+        text-align: center;
+        width: 16%;
+        padding: 15px 0 18px;
+        border-radius: 10px;
+        position: relative;
+        margin-top: -50px;
+    }
+    .blog-page-datetime span {
+        font-size:20px;
+    }
+    .left-sidebar .blog-page-title a {
+        color: #0d1218;
+        font-weight: 600;
+    }
+    .blog-page-content-text p {
+        color: #0d1218;
+    }
+    .left-sidebar .corona-blog-meta-left {
+        padding: 13px 0 16px;
+    }
+    .left-sidebar.blog2 .blog-page-datetime {
+        width: 40%;
+        padding: 21px 0 24px;
+    }
+    .left-sidebar.blog2 .blog-page-title h2 {
+        font-size: 22px;
+    }
+    .left-sidebar.blog2 .em-blog-content-area {
+        padding: 0 22px 15px;
+    }
+    .left-sidebar.blog2 .corona-blog-meta-left span {
+        margin-right: 15px;
+    }
+    .left-sidebar.blog2 .corona-blog-meta-left i {
+        margin-right: 6px;
+    }
+    .left-sidebar.blog2 .blog-page-title {
+        padding-top: 12px;
+    }
+    .left-sidebar.blog2  .corona-blog-thumb img {
+        width: 100%;
+    }
+    /* Blog Details  Content CSS */
+    .blog_details {
+        box-shadow: 0 7px 16px rgba(0, 0, 0, 0.15);
+        padding: 15px 20px;
+    }
+    .blog_dtl_thumb img {
+        width: 100%;
+    }
+    .blog_dtl_content h2 {
+        color: #0d1218;
+        font-size: 35px;
+        padding-top: 25px;
+    }
+    .corona-blog-meta-left {
+        padding: 12px 0 35px;
+    }
+    .corona-blog-meta-left span {
+        color: #0d1218;
+        margin-right: 40px;
+    }
+    .corona-blog-meta-left i {
+        margin-right: 10px;
+    }
+    .blog_dtl_content p {
+        color: #0d1218;
+    }
+    .blog_dtl_content h3 {
+        color: #0d1218;
+        padding: 10px 0 20px;
+        font-size: 28px;
+    }
+    .blog_details blockquote {
+        margin: 37px 0 36px;
+        font-size: 14px;
+        border-left: 7px solid #5fe60e;
+        background: #f4f8fe;
+        font-style: italic;
+        font-weight: 500;
+        padding: 25px 35px 15px;
+    }
+    .signatures {
+        text-align: right;
+        font-weight: 600;
+        font-style: italic;
+        font-size: 15px;
+    }
+    .signatures span{
+        color:#232323;
+    }
+    /* POST REPLY CSS */
+    .blog_comments_section {
+        padding: 20px 15px 18px;
+        margin: 50px 0 0;
+        box-shadow: 0 7px 16px rgba(0, 0, 0, 0.15);
+    }
+    .comments_ttl>h3 {
+        font-size: 28px;
+        color: #0d1218;
+    }
+    .comments_ttl {
+        margin-bottom: 37px;
+    }
+    .commentst_content p {
+        color: #0d1218;
+    }
+    .comments_thumb {
+        float: left;
+        margin-right: 20px;
+        overflow: hidden;
+    }
+    .commentst_content {
+        overflow: hidden;
+    }
+    .blog_comments_section .post_meta {
+        margin-bottom: 6px;
+    }
+    .blog_comments_section .post_meta span {
+        font-weight: 400;
+        padding-right: 15px;
+        color: #6d6d6d;
+    }
+    .blog_comments_section .post_meta span:hover {
+        color: #5fe60e;
+    }
+    .blog_comments_section .post_meta span:last-child:before {
+        display: none;
+    }
+    .commentst_meta_reply {
+        float: right;
+    }
+    .commentst_meta_reply i {
+        margin-right: 10px;
+    }
+    .commentst_meta_reply:hover {
+        color: #5fe60e;
+    }
+    .single_commentst_inner {
+        margin-bottom: 44px;
+        margin-top: 46px;
+        padding-left: 63px;
+    }
+    .badmin i {
+        margin-right: 3px;
+    }
+    
+    /* COMMENT FORM CSS */
+    .blog_reply {
+        overflow: hidden;
+        margin-top: 50px;
+        padding: 20px 15px 37px;
+        box-shadow: 0 7px 16px rgba(0, 0, 0, 0.15);
+    }
+    .reply_ttl>h3 {
+        font-size: 28px;
+        color: #0d1218;
+    }
+    .reply_ttl {
+        margin-bottom: 36px;
+    }
+    .blog_reply .em_contact_form {
+        margin-bottom: 0;
+    }
+    .blog_reply .contact_bnt button:hover {
+        background: #0D2352;
+        color: #fff;
+    }
+    /* contact title css */
+    .request_form_title h2 {
+        color: rgba(221, 221, 221, 0.79);
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 47px 0 7px;
+    }
+    .request_form_title h1 {
+        color: rgba(255, 255, 255, 1);
+        font-size: 35px;
+        font-weight: 700;
+        padding-bottom: 40px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    
+    /* corona Form Css */
+    .blog_reply .form_field {
+        width: 100%;
+    }
+    .blog_reply .form_field_inner {
+        width: 50%;
+        float: left;
+    }
+    .blog_reply .form_field_inner input, .blog_reply .form_field_inner textarea {
+        width: 95%;
+        background: #eceff3;
+        border: 0;
+        height: 50px;
+        padding-left: 15px;
+        color: #6d6d6d;
+        margin-bottom: 20px;
+    }
+    .blog_reply .text_area .form_field_inner {
+        width: 100%;
+    }
+    .blog_reply .text_area .form_field_inner textarea {
+        width: 97.5%;
+        height: 150px;
+        padding-top: 15px;
+    }
+    .blog_reply .contact_button button {
+        background: #5fe60e;
+        border: 0;
+        color: #fff;
+        padding: 12px 25px;
+        cursor: pointer;
+    }
+    .paginations {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 28px;
+    }
+    .page-numbers li {
+        display: inline-block;
+    }
+    .paginations a, .page-numbers span.current {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 500;
+        margin: auto 5px;
+        border: 1px solid #ddd;
+        color: #888;
+    }
+    .paginations a:hover, .paginations a.current, .page-numbers span.current {
+        background: linear-gradient(to right, #03b8fa, #135ef3);
+        border-color: linear-gradient(to right, #03b8fa, #135ef3);
+        color: #fff;
+    }
+    
+    /*============================
+    Corona Bounce Animate Css
+    ==============================*/
+    /* bounce-animate */
+    .bounce-animate {
+      animation-name: float-bob;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      -moz-animation-name: float-bob;
+      -moz-animation-duration: 2s;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: linear;
+      -ms-animation-name: float-bob;
+      -ms-animation-duration: 2s;
+      -ms-animation-iteration-count: infinite;
+      -ms-animation-timing-function: linear;
+      -o-animation-name: float-bob;
+      -o-animation-duration: 2s;
+      -o-animation-iteration-count: infinite;
+      -o-animation-timing-function: linear; }
+    
+    
+    @-webkit-keyframes float-bob {
+      0% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px); }
+      50% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px); }
+      100% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px); } }
+        
+        
+        
+    @-webkit-keyframes movebounce {
+      0% {
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+      }
+      50% {
+        -webkit-transform: translateY(20px);
+                transform: translateY(20px);
+      }
+      100% {
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+      }
+    }
+    
+    @keyframes movebounce {
+      0% {
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+      }
+      50% {
+        -webkit-transform: translateY(20px);
+                transform: translateY(20px);
+      }
+      100% {
+        -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+      }
+    }
+    
+    @-webkit-keyframes moveleftbounce {
+      0% {
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+      }
+      50% {
+        -webkit-transform: translateX(20px);
+                transform: translateX(20px);
+      }
+      100% {
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+      }
+    }
+    
+    @keyframes moveleftbounce {
+      0% {
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+      }
+      50% {
+        -webkit-transform: translateX(20px);
+                transform: translateX(20px);
+      }
+      100% {
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px);
+      }
+    }
+    
+    .rotateme {
+      -webkit-animation-name: rotateme;
+              animation-name: rotateme;
+      -webkit-animation-duration: 20s;
+              animation-duration: 20s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+    }
+    
+    @keyframes rotateme {
+      from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+      }
+      to {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+      }
+    }
+    
+    @-webkit-keyframes rotateme {
+      from {
+        -webkit-transform: rotate(0deg);
+      }
+      to {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+    
+    .rotateme2 {
+      -webkit-animation-name: rotateme2;
+              animation-name: rotateme2;
+      -webkit-animation-duration: 20s;
+              animation-duration: 20s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+    }
+    
+    @keyframes rotateme2 {
+      from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+      }
+      to {
+        -webkit-transform: rotate(-360deg);
+                transform: rotate(-360deg);
+      }
+    }
+    
+    @-webkit-keyframes rotateme2 {
+      from {
+        -webkit-transform: rotate(0deg);
+      }
+      to {
+        -webkit-transform: rotate(-360deg);
+      }
+    }
+    
+    @-webkit-keyframes rotate3d {
+      0% {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+      }
+      100% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+      }
+    }
+    
+    @keyframes rotate3d {
+      0% {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+      }
+      100% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+      }
+    }
+    
+    @keyframes animationFramesOne {
+      0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+                transform: translate(0px, 0px) rotate(0deg);
+      }
+      20% {
+        -webkit-transform: translate(73px, -1px) rotate(36deg);
+                transform: translate(73px, -1px) rotate(36deg);
+      }
+      40% {
+        -webkit-transform: translate(141px, 72px) rotate(72deg);
+                transform: translate(141px, 72px) rotate(72deg);
+      }
+      60% {
+        -webkit-transform: translate(83px, 122px) rotate(108deg);
+                transform: translate(83px, 122px) rotate(108deg);
+      }
+      80% {
+        -webkit-transform: translate(-40px, 72px) rotate(144deg);
+                transform: translate(-40px, 72px) rotate(144deg);
+      }
+      100% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+                transform: translate(0px, 0px) rotate(0deg);
+      }
+    }
+    
+    @-webkit-keyframes animationFramesOne {
+      0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+      }
+      20% {
+        -webkit-transform: translate(73px, -1px) rotate(36deg);
+      }
+      40% {
+        -webkit-transform: translate(141px, 72px) rotate(72deg);
+      }
+      60% {
+        -webkit-transform: translate(83px, 122px) rotate(108deg);
+      }
+      80% {
+        -webkit-transform: translate(-40px, 72px) rotate(144deg);
+      }
+      100% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+      }
+    }
+    
+    .footer_area{position:relative;}
+    
+    .clouds img {
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+    }
+    .clouds img {
+        position: absolute;
+        bottom: 0;
+    
+    }
+    .clouds img.cloud5 {
+        bottom: 200px;
+        -webkit-animation: cloud5 25s linear 20s infinite;
+        animation: cloud5 25s linear 20s infinite;
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    .clouds img.cloud5 {
+        bottom: 200px;
+        -webkit-animation: cloud5 25s linear 20s infinite;
+        animation: cloud5 25s linear 20s infinite;
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    .clouds img {
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+    }
+    .clouds img {
+        position: absolute;
+        bottom: 0;
+        z-index: 1
+    }
+    .clouds img.cloud1 {
+        bottom: 0px;
+        -webkit-animation: cloud1 45s linear 6s infinite;
+        animation: cloud1 45s linear 6s infinite;
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    @-webkit-keyframes cloud1 {
+        0% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            right: 0
+            
+        }
+        10% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            right: 10%;
+        }
+        90% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            right: 90%
+        }
+        100% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            right: 100%
+        }
+    }
+    
+    @keyframes cloud1 {
+        0% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            left: 0;
+            bottom:0;
+        }
+        10% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            left: 10%;
+            bottom:0%;
+        }
+        
+        90% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            left: 90%
+        }
+        100% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            left: 100%
+        }
+    }
+    .clouds img.cloud2 {
+        bottom: 0;
+        -webkit-animation: cloud2 45s linear 21s infinite;
+        animation: cloud2 45s linear 21s infinite;
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    @-webkit-keyframes cloud2 {
+        0% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            left: 0
+        }
+        10% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            left: 10%;
+        }
+        90% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            left: 90%
+        }
+        100% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            left: 100%
+        }
+    }
+    
+    @keyframes cloud2 {
+        0% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            left: 0
+        }
+        10% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            left: 10%;
+        }
+        90% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            left: 90%
+        }
+        100% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            left: 100%
+        }
+    }
+    .clouds img.cloud3 {
+        -webkit-animation: cloud3 45s linear 6s infinite;
+        animation: cloud3 45s linear 6s infinite;
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    @-webkit-keyframes cloud3 {
+        0% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            right: 0
+            
+        }
+        5% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            right: 5%;
+        }
+        90% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            right: 90%
+        }
+        100% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            right: 100%
+        }
+    }
+    
+    @keyframes cloud3 {
+        0% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            right: 0;
+            bottom:0;
+        }
+        10% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            right: 10%;
+            bottom:0%;
+        }
+        
+        90% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            right: 90%
+        }
+        100% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            right: 100%
+        }
+    }
+    .clouds img.cloud4 {
+        -webkit-animation: cloud4 45s linear 21s infinite;
+        animation: cloud4 45s linear 21s infinite;
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    @-webkit-keyframes cloud4 {
+        0% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            right: 0
+        }
+        10% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            right: 10%;
+        }
+        90% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            right: 90%
+        }
+        100% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            right: 100%
+        }
+    }
+    
+    @keyframes cloud4 {
+        0% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            right: 0
+        }
+        10% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            right: 10%;
+        }
+        90% {
+            opacity: 1;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            right: 90%
+        }
+        100% {
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            right: 100%
+        }
+    }
+    
+    
+    #scrollUp {
+        background: #5fe60e none repeat scroll 0 0;
+        bottom: 30px;
+        color: #fff;
+        font-size: 22px;
+        height: 40px;
+        line-height: 40px;
+        right: 90px;
+        text-align: center;
+        width: 40px;
+        border-radius: 50%;
+    }
+    #scrollUp i {
+        color: #fff;
+    }
