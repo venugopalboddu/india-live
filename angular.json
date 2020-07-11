@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "india-live"
+    }
+  },
+  "defaultProject": "india-live",
+  "cli": {
+    "analytics": "72ae2432-0eb3-4d28-ae72-811fd2d3d622"
+  }
 }
